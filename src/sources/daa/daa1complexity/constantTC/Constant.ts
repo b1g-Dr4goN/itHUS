@@ -2,3 +2,4 @@
 const a = 1; // Assignment
 const b = 2; // Assignment
 const c = a + b; // Calculation
+console.log(c);

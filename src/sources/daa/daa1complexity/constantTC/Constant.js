@@ -2,3 +2,4 @@
 var a = 1; // Assignment
 var b = 2; // Assignment
 var c = a + b; // Calculation
+console.log(c);
