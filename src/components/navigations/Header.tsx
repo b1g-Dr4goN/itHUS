@@ -1,9 +1,9 @@
 import { Tabs } from "@mantine/core";
 import { useState } from "react";
+import { useNavigate } from "react-router";
 import logoHUS from "../../assets/LogoHUS.png";
 import logoBigDragon from "../../assets/bigdragon.png";
 import logo from "../../assets/ithus.png";
-import { useNavigate } from "react-router";
 
 const Header = () => {
   const [activeTab, setActiveTab] = useState<string | null>("Home");
